@@ -27,3 +27,20 @@ body {
     font-weight: normal;
     background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1))  !important;
 }
+
+.container-fluid  {
+    padding: 0;
+}
+
+.bg-light {
+    background: linear-gradient(300deg, rgba(96,7,30,1), rgba(205,34,57,1))  !important;
+}
+
+.logo-menu {
+    width: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Angilla Tattoo Personal Use';
+    font-size: 1.6rem;
+}
