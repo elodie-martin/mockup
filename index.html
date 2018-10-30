@@ -4,20 +4,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!--FontAwesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+        <!--CSS-->
         <link rel="stylesheet" href="style.css">
+
         <title>Document</title>
     </head>
     
     <body>
+        <!--Menu-->
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
+                <div class="container container-menu">
                     <a class="navbar-brand text-white" href="#">Mock Up</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarText">
+                    <div class="collapse navbar-collapse" id="navbarText">
                         <img src="img/logo.svg" class="logo-menu" alt="logo" />
                     </div>
                     <div class="navbar-text">
@@ -30,27 +37,62 @@
             </nav>
         </div>
 
+        <!--Header-->
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div>
                             <img src="img/img-header.jpg" alt="img-header" class="img-fluid" />
+                            <div class="d-flex justify-content-center div-text-header">
+                                <div class="text-header">
+                                    <button type="button" class="btn btn-primary text-uppercase button-commander-mobile"><span class="text-commander">Commander</span> <i class="fas fa-shopping-cart"></i></button>
+                                    <p>Découvrez <span class="font-weight-bold">MOCK UP</span>, la collation sportive nouvelle génération. Elle est spécialement formulé pour les athlètes et les compétiteurs.</p>
+                                    <p class="font-weight-bold essayer-la">Essayer la !</p>
+                                    <button type="button" class="btn btn-primary text-uppercase button-commander-pc"><span class="text-commander">Commander</span> <i class="fas fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    </div>
-                </div>
-                
-
             </div>
         </div>
 
-        <footer>
+        <!--3 Colonnes-->
+        <div class="container-fluid">
+            <div class="container container-cercle">
+                <p class="text-center text-white pt-4 pb-3 titre-cercle">Tout ce dont vous avez besoin pour être au top</p>
+                <div class="row">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <p class="text-center font-weight-bold rose-1">100 kcal</p>
+                        <div class="doughnut" data-value="40">
+                            <progress value="40" max="100"></progress>
+                        </div>
+                        <p class="text-center text-white mt-3 text-cercle-pc">De l’énergie sur la durée</p>
+                        <p class="text-center text-white mt-3 text-cercle-mobile">energie</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <p class="text-center font-weight-bold rose-2">8 g</p>
+                        <div class="doughnut doughnut-2" data-value="40">
+                            <progress class="progress-rose-2" value="40" max="100"></progress>
+                        </div>
+                        <p class="text-center text-white mt-3 text-cercle-pc">Des protéines pour vos muscles</p>
+                        <p class="text-center text-white mt-3 text-cercle-mobile">protéine</p>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <p class="text-center font-weight-bold rose-3">3 g</p>
+                        <div class="doughnut doughnut-3" data-value="40">
+                            <progress class="progress-rose-3" value="40" max="100"></progress>
+                        </div>
+                        <p class="text-center text-white mt-3 text-cercle-pc">Peu de sucre</p>
+                        <p class="text-center text-white mt-3 text-cercle-mobile">sucre</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
-        </footer>
+
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
