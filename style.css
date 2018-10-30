@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Angilla Tattoo Personal Use';
+    src: url('AngillaTattooPersonalUse.woff2') format('woff2'),
+        url('AngillaTattooPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic-Bold.woff2') format('woff2'),
+        url('CenturyGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Century Gothic';
+    font-weight: normal;
+    background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1))  !important;
+}
