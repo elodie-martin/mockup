@@ -1,31 +1,288 @@
+/*Fonts*/
 @font-face {
     font-family: 'Angilla Tattoo Personal Use';
-    src: url('AngillaTattooPersonalUse.woff2') format('woff2'),
-        url('AngillaTattooPersonalUse.woff') format('woff');
+    src: url('fonts/AngillaTattooPersonalUse.woff2') format('woff2'),
+        url('fonts/AngillaTattooPersonalUse.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Century Gothic';
-    src: url('CenturyGothic-Bold.woff2') format('woff2'),
-        url('CenturyGothic-Bold.woff') format('woff');
+    src: url('fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('fonts/CenturyGothic-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Century Gothic';
-    src: url('CenturyGothic.woff2') format('woff2'),
-        url('CenturyGothic.woff') format('woff');
+    src: url('fonts/CenturyGothic.woff2') format('woff2'),
+        url('fonts/CenturyGothic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+/*general*/
 body {
     font-family: 'Century Gothic';
     font-weight: normal;
-    background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1))  !important;
+    background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1));
+    font-size: 0.9rem;
+}
+
+.container-fluid  {
+    padding: 0;
+}
+
+/*menu*/
+.bg-light {
+    background: linear-gradient(300deg, rgba(96,7,30,1), rgba(205,34,57,1))  !important;
+}
+
+.logo-menu {
+    width: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Angilla Tattoo Personal Use';
+    font-size: 1.6rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    display: flex!important;
+    flex-basis: auto;
+}
+
+@media (max-width: 576px) { 
+    .navbar-text {
+        width: 100%;
+        margin-top: -48px;
+        font-size: 1.2rem;
+    }
+    .logo-menu {
+        width: 100px;
+        margin-top: 28px;
+    }
+    .navbar-brand {
+        font-size: 3rem;
+    }
+    .container-menu {
+        margin-top: -24px;
+    }
+    .titre-cercle {
+        display: none;
+    }
+    .text-cercle-pc {
+        display: none;
+    }
+    .text-cercle-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) { 
+    .text-cercle-mobile {
+        display: none;
+    }
+    .text-cercle-pc {
+        display: block;
+    }
+}
+
+/*header*/
+.div-text-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.text-header {
+    background: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+@media (max-width: 992px) { 
+    .text-header {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) { 
+    .div-text-header {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        top: -70px;
+    }
+    .text-header {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #FFFFFF;
+    }
+    .container-cercle {
+        margin-top: -70px;
+    }
+    .text-commander {
+        display: none;
+    }
+    .fa-shopping-cart {
+        font-size: 2rem !important;
+    }
+    .button-commander-mobile {
+        border-radius: 50% !important;
+        padding: 30px !important;
+        margin-top: -70px;
+    }
+    .button-commander-pc {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) { 
+    .button-commander-mobile {
+        display: none;
+    }
+    .button-commander-pc {
+        display: block;
+        margin: auto;
+    }
+}
+
+.essayer-la {
+    margin-top: -15px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: linear-gradient(300deg, rgba(96,7,30,1), rgba(205,34,57,1));
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa-shopping-cart {
+    font-size: 1rem;
+}
+
+/*3 colonnes*/
+/*cercle*/
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+}
+  
+::-moz-progress-bar {
+    visibility: hidden;
+}
+  
+::-ms-fill {
+    display: none;
+}
+
+::-webkit-progress-inner-element, ::-webkit-progress-bar, ::-webkit-progress-value {
+    display: none;
+}
+
+.doughnut {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform: rotate(90deg);
+    margin: auto;
+}
+  
+.doughnut progress {
+    width: 100%; 
+    height: 100%;
+    border: 0;
+    border-radius: 50%;
+    background: conic-gradient(#EF4E6A 25%, rgba(120,120,120,0.4) 0);
+}
+
+.progress-rose-2 {
+    background: conic-gradient(#CD2239 25%, rgba(120,120,120,0.4) 0) !important;
+}
+
+.progress-rose-3 {
+    background: conic-gradient(#AC1E31 25%, rgba(120,120,120,0.4) 0) !important;
+} 
+
+.doughnut progress {
+    width: 100%; 
+    height: 100%;
+    border: 0;
+    border-radius: 50%;
+    background: conic-gradient(#EF4E6A 25%, rgba(120,120,120,0.4) 0);
+}  
+  
+.doughnut::before {
+    content: url("img/icons8-lightning-bolt-24.png");
+    position: absolute; 
+    background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1));
+    border-radius: 50%;
+    top: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    transform: rotate(-90deg);
+}
+
+.doughnut-2::before {
+    content: url("img/icons8-beef-64.png");
+}
+
+.doughnut-3::before {
+    content: url("img/icons8-carbohydrates-50.png");
+}
+
+/*couleurs-colonnes*/
+/*colonne 1*/
+.rose-1 {
+    color: #EF4E6A;
+}
+
+/*colonne 2*/
+.rose-2 {
+    color: #CD2239;
+}
+
+/*colonne 3*/
+.rose-3 {
+    color: #AC1E31;
+}
+
+@media (max-width: 576px) { 
+    .doughnut {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        transform: rotate(90deg);
+        margin: auto;
+    }
 }
 
 
