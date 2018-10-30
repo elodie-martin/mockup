@@ -27,3 +27,134 @@ body {
     font-weight: normal;
     background: linear-gradient(300deg, rgba(22,21,36,1), rgba(17,18,27,1))  !important;
 }
+
+
+.text-color{
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trace{
+    border-top : 1px solid #FFFFFF; 
+width : 70px;
+
+}
+
+.legend_carousel {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.background_text{
+    background-color: rgb(0, 0, 0,.5);
+    height: 70px;
+}
+
+.button_prev{
+    width:85px;
+	height:85px;
+	background:#cc0000;
+	font:bold 13px Arial;
+	border-radius:50%;
+	border:none;
+	color:#fff;
+}
+
+.text-color1{
+    color: beige;
+}
+
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.form1{
+    height: 250px;
+    width: 1110px;
+    margin-left: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.test{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 555px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.test2{
+    width:555px;
+}
+
+.edit_button{
+    width: 450px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(217, 215, 219);
+    text-align: center;
+}
+
+.edit_button1{
+    width: 450px;
+    height: 180px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(217, 215, 219);
+    text-align: center;
+}
+
+.center_button{
+    width: 1110px;
+}
+
+.edit_valid_button{
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    color: white;
+    background: linear-gradient(300deg, rgba(96,7,30,1), rgba(205,34,57,1)); 
+}
+
+::placeholder{
+    color: black;
+}
+
+.size_footer{
+    height: 158px;
+    background: linear-gradient(300deg, rgba(96,7,30,1), rgba(205,34,57,1));
+}
+
+.size_icon_list{
+    width: 708px;
+    padding-top: 10px
+}
+
+
+.edit_pic_footer{
+   height: 58px;
+   width: 58px;
+}
+
+.edit_pic_footer1{
+    height: 55px;
+    width: 79px;
+
+}
+
+.taille{
+    width: 50px;
+}
+
+.end{
+    color: white;
+    font-size: 17px;
+
+}
